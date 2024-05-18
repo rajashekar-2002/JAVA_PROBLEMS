@@ -1,4 +1,4 @@
-```java
+
 package arrays;
 
 import java.util.HashMap;
@@ -30,4 +30,9 @@ public class main{
         
     }
 }
-```
+
+
+
+//put is used to add as well as update value in mpa functions
+//if values are already present values will be replaced
+//keys are set and values are list
