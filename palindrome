@@ -1,0 +1,20 @@
+package arrays;
+
+@SuppressWarnings("all")
+public class main {
+  static String var;
+  static{
+    var="abvcvba";
+  }
+  public static void main(String[] args) {
+
+    String str = new StringBuilder(var).reverse().toString();
+    if(var.equals(str)){
+      System.out.println(" yes string is palindrome");
+    }else{
+      System.out.println("oopps! string is not palindrome");
+    }
+    
+
+  }
+}
